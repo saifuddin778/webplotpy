@@ -1,0 +1,1 @@
+var line_items_ = {"count": 10, "line_color": "cornflowerblue", "xlabel": "x-axis", "ylabel": "y-axis", "plot_title": "Line Plot", "y_axis": [1, 3, 5, 6, 4, 8, 2, 6, 9, 120], "x_axis": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "line_label": "series", "mean": 16.4};
