@@ -15,14 +15,14 @@ body{
   width: 80.2%;
   height: 35px;
   margin-bottom: 5px;
-  background-color: rgb(229, 228, 243);
+  background-color: rgb(223, 223, 223);
   float: left;
   border-radius: 2px;
   text-align: center;
   font-family: "Trebuchet MS";
   font-size: 18px;
   line-height: 34px;
-  color: rgba(128, 0, 123, 0.76);
+  color: rgba(53, 53, 53, 0.76);
 }
 
 /*chart itself*/
