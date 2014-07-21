@@ -72,14 +72,5 @@ function create_stats(stat_item) {
       $cells += "<div class='stat_row'><div class='stat_cell'>"+name_+"</div><div class='stat_cell'>"+len_+"</div></div>";
    }
    $('.stats_table').append($cells);
-   
-   
-   /*
-   for (i in stat_item){
-      $cells += "<div class='stat_row'><div class='stat_cell'>"+stat_item[i].label+"</div><div class='stat_cell'>"+stat_item[i].value+"</div></div>";
-   }
-   $('.stats_table').append($cells);
-   */
-   //create chart title
    $('.chart_title').text(scatter_items_.plot_title);
 }
