@@ -1,1 +1,1 @@
-var pie_items_ = {"plot_title": "Pie Chart", "item_type": "Segment", "data": [["A", 10], ["B", 30], ["C", 45], ["D", 5.6]]};
+var pie_items_ = {"plot_title": "Pie Chart", "item_type": "Segment", "data": [["A", 10], ["B", 30], ["C", 45], ["D", 5.6], ["E", 28.7], ["F", 5.3], ["G", 34]]};

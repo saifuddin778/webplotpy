@@ -1,12 +1,23 @@
 $(document).ready(function(){
    create_stats(pie_items_.data);
-   plot_scatter();
+   plot_pie();
    
    
 });
 
-function plot_scatter(){
-   $('#chart').highcharts({
+function plot_pie(){
+   // Make monochrome colors and set them as default for all pies
+   Highcharts.getOptions().plotOptions.pie.colors = (function () {
+      var colors = [],
+      base = '#558ed5', i
+
+      for (i = 0; i < 10; i++) {
+         colors.push(Highcharts.Color(base).brighten((i - 4) / 7).get());
+      }
+      return colors;
+   }());
+   
+   var ch = $('#chart').highcharts({
       chart: {
          plotBackgroundColor: null,
          plotBorderWidth: null,
@@ -21,13 +32,18 @@ function plot_scatter(){
       tooltip: {
          pointFormat: '{series.name}: <b>{point.y}</b>'
       },
+      
+      
       plotOptions: {
          pie: {
                allowPointSelect: true,
                cursor: 'pointer',
                dataLabels: {
                   enabled: true,
-                  format: '<b>{point.name}</b>: {point.y}',   
+                  format: '<b>{point.name}</b>: {point.y}',
+                  style:{
+                     color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                  }
                }
          }
       },
