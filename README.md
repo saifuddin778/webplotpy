@@ -8,4 +8,17 @@ A data plotting kit - Webplotpy offers a web interface for visualizing datasets 
 >>> data = [...]
 >>> line_plot(data)
 ```
+###Currently available plots:
+* Line Plot
+* Multi-line Plot
+* Histogram
+* Scatterplot
+* Pie Chart
+
+###In the pipeline:
+* Column Chart
+* Multi-Column Chart
+* Bar Chart
+* Bubble Plot
+
 To read the docs and to see the examples of available charting methods, please visit [Webplotpy](http://saif778.pythonanywhere.com/webplotpy/) web.
