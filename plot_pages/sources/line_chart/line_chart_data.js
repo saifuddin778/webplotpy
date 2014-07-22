@@ -1,1 +1,1 @@
-var line_items_ = {"count": 10, "line_color": "cornflowerblue", "xlabel": "x-axis", "ylabel": "y-axis", "plot_title": "Line Plot", "y_axis": [1, 3, 5, 6, 4, 8, 2, 6, 9, 120], "x_axis": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "line_label": "series", "mean": 16.4};
+var line_items_ = {"count": 12, "line_color": "cornflowerblue", "xlabel": "x-axis", "ylabel": "y-axis", "plot_title": "Line Plot", "y_axis": [2, 3, 4, 5, 6, 7, 8, 32, 3, 4, 2, 1], "x_axis": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "line_label": "series", "mean": 6.42};
