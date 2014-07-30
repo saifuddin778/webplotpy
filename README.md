@@ -14,11 +14,11 @@ A data plotting kit - Webplotpy offers a web interface for visualizing datasets 
 * Histogram
 * Scatterplot
 * Pie Chart
+* Bar Plot
 
 ###In the pipeline:
 * Column Chart
 * Multi-Column Chart
-* Bar Chart
 * Bubble Plot
 
 To read the docs and to see the examples of available charting methods, please visit [Webplotpy](http://saif778.pythonanywhere.com/webplotpy/) web.
