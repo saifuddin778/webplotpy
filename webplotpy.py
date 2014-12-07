@@ -185,3 +185,6 @@ class bar_chart(object):
         
         p = plot(object_, self.url_, 'bar_chart', 'bar_chart_data', 'bar_items_')
         p.gen_plot()
+
+        
+
