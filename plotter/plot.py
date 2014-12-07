@@ -1,4 +1,5 @@
 import sys
+import os
 sys.dont_write_bytecode = True
 import json
 import webbrowser
@@ -16,7 +17,7 @@ class plot(object):
         self.var_name = var_name
         
     def gen_plot(self):
-        uri = 'plot_pages/sources/'+self.repo+'/'+self.source_name+'.js'
+        uri = os.path.dirname(os.path.abspath('__file__'))+'/plot_pages/sources/'+self.repo+'/'+self.source_name+'.js'
         self.var_name = 'var '+self.var_name
         f = open(uri, 'wb')
         f.write(self.var_name + ' = ' + json.dumps(self.object_) +';')
