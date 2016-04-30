@@ -1,0 +1,1 @@
+var histogram_items_ = {"count": 8, "plot_data": [{"values": [{"value": 3, "key": 1}, {"value": 2, "key": 2}, {"value": 2, "key": 3}, {"value": 1, "key": 4}], "key": "Histogram"}], "show_values": true, "show_xaxis": true, "plot_title": "Histogram"};

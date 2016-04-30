@@ -1,0 +1,1 @@
+var scatter_items_ = {"plot_title": "Scatterplot", "xlabel": "x-axis", "data": [{"data": [[1, 2], [2, 4], [6, 5]], "name": "A"}], "ylabel": "y-axis"};
