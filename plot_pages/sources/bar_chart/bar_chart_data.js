@@ -1,1 +1,0 @@
-var bar_items_ = {"plot_title": "Bar Chart", "data_values": [1, 10, 15], "xlabel": "x-axis", "data_labels": ["A", "B", "C"], "ylabel": "y-axis"};
